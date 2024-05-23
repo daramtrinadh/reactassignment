@@ -1,0 +1,134 @@
+.content{
+    background-color: #290970;
+    display: flex;
+    flex-direction: row;
+    padding:20px;
+    color:white;
+}
+.first-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:50%;
+    
+}
+.download-btn{
+    background-color: white;
+    border-radius: 10px;
+    padding:10px;
+    margin:10px;
+    color:#290970;
+    border-width: 0px;
+    cursor:pointer;
+}
+.span{
+    border:1px solid white;
+    border-color:white;
+    padding:3px;
+    font-size:13px;
+    margin:3px;
+    color:white;
+}
+.buttons{
+    display:flex;
+    flex-direction: row;
+
+}
+.video-player{
+    width:400px;
+    height:300px;
+}
+.second-content{
+    width:60%;
+    margin: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding:30px;
+    border-radius: 20px;
+    width:70%;
+    border-top-color: #290970;
+
+}
+.silver-btn{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ed1c24;
+    border-radius: 10px;
+    padding:10px;
+    margin:10px;
+    color:#290970;
+    border-width: 0px;
+    cursor:pointer;
+    width:160px;
+}
+.silver-text{
+    font-size: 10px;
+    width:80%;
+    color:white;
+}
+.question{
+    color:#290970;
+}
+.input-field{
+    margin:10px;
+}
+.submit-btn{
+    border-radius: 10px;
+    background: linear-gradient(to right,#36167c,#604898);
+    color:white;
+    font-size: 15px;
+    border-width: 0px;
+    padding: 10px;
+}
+.dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.dialog-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.message{
+    color:green;
+    font-weight: bold;
+}
+.warning {
+    color: red;
+    margin-bottom: 10px;
+}
+@media (max-width:768px) {
+    .content{
+        display:flex;
+        flex-direction:column;
+    }
+    .first-content{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .second-content{
+        width:100%;
+    }
+ 
+}

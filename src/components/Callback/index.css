@@ -1,0 +1,10 @@
+.callback-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+.callback-about{
+    width: 50%;
+}

@@ -1,0 +1,65 @@
+.learn-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hr-learn{
+    height:2px;
+    width:50px;
+    background-color: #36167c;
+    
+}
+.learn-text{
+    color:#36167c;
+}
+.learn-item-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center ;
+    flex-wrap: wrap;
+
+}
+.eachLearnItem{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin:7px;
+    width:30%;
+    height:520px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding:7px;
+}
+.inside-title{
+    color:#36167c;
+}
+.learn-head{
+    background-color: #36167c;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    padding:10px;
+    border-radius: 10px;
+}
+.papers {
+    background-color: #36167c;
+    color:white;
+    margin-top: auto; 
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+@media (max-width:768px){
+    .learn-text{
+        font-size:20px;
+    }
+    .learn-item-section{
+        flex-direction: column;
+    }
+    .eachLearnItem{
+        width:80%;
+        height:100%;
+    }
+}
